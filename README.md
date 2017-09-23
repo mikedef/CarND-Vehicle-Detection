@@ -28,7 +28,7 @@ The goals / steps of this project are the following:
 [image4]: ./output_images/color_hist.png "color hist"
 [image5]: ./output_images/spatial_bin.png "spatial binning"
 [image6]: ./output_images/search_windows_separate.png "sliding window search"
-[image7]: ./output_images/combined_color_road_img_sample_.png "Combined with color Example"
+[image7]: ./output_images/located_cars.png "located cars"
 [image8]: ./output_images/perspective_transform_road_img_sample_.png "perspective transform Example"
 [image9]: ./output_images/histogram_road_img_sample_.png "Hist of lane line pixles"
 [image10]: ./output_images/slidingWinddow.png "sliding Hist of lane line pixles"
@@ -81,6 +81,13 @@ Next I will build a classifier to tell if a image is a vehicle or not. I ended u
 
 ### Sliding Window Search
 
-A sliding window approach has been implemented, where overlapping tiles in each test image are classified as vehicle or non-vehicle.
+A sliding window approach has been implemented, where overlapping tiles in each test image are classified as vehicle or non-vehicle. The sliding window search shows different scale windows used to identify vehicles at various distances away from the camera. 
 
 ![alt text][image6]
+
+The searching the windows above the classifier is able to identify the windows where a potential vehicle is located. 
+
+![alt text][image7]
+
+
+
