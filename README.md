@@ -29,7 +29,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/spatial_bin.png "spatial binning"
 [image6]: ./output_images/search_windows_separate.png "sliding window search"
 [image7]: ./output_images/located_cars.png "located cars"
-[image8]: ./output_images/perspective_transform_road_img_sample_.png "perspective transform Example"
+[image8]: ./output_images/vehicle_final_efficient.png "finding vehicles"
 [image9]: ./output_images/histogram_road_img_sample_.png "Hist of lane line pixles"
 [image10]: ./output_images/slidingWinddow.png "sliding Hist of lane line pixles"
 [image11]: ./output_images/FittedLaneLines.png "slidings Hist of lane line pixles"
@@ -89,5 +89,6 @@ The searching the windows above the classifier is able to identify the windows w
 
 ![alt text][image7]
 
+Implementing the HOG extraction over all new windows is very inefficient and takes a long time to do. Using the HOG extraction function over the sliding window improves the efficiency and helps seperate detections.
 
-
+![alt text][image8]
