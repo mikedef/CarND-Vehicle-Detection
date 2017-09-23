@@ -31,10 +31,9 @@ The goals / steps of this project are the following:
 [image7]: ./output_images/located_cars.png "located cars"
 [image8]: ./output_images/vehicle_final_efficient.png "finding vehicles"
 [image9]: ./output_images/heatmap.png "heat map"
-[image10]: ./output_images/slidingWinddow.png "sliding Hist of lane line pixles"
-[image11]: ./output_images/FittedLaneLines.png "slidings Hist of lane line pixles"
-[image12]: ./output_images/curve_fitting_road_img_sample_.png "curve fitting"
+
 [video14]: ./project_video_output.mp4 "Video"
+[video15]: ./project_video_gif.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 
@@ -95,6 +94,20 @@ Implementing the HOG extraction over all new windows is very inefficient and tak
 
 ### Heat Maps
 
-Next I use a heatmap to reduce false positives and control for noise in the images
+Next I use a heatmap to reduce false positives and control for noise in the images and use a bounding box to identify each vehicle.
 
 ![alt text][image9]
+
+### Video Pipeline
+Here's a [link to my video result](https://youtu.be/Rt7aAEs6CCQ)
+Here's a [link to my video result](https://youtu.be/7A0Rvv75agA)
+
+or see the project_video_output.mp4 or project_video_gif.mp4 in this repository. 
+
+![Alt Text](project_video_gif.mp4)
+
+### Discussion
+
+Using this pipeline on a live video is extreamly inefficient. It taks well over 30 minutes to extract and identify vehicles. This would simply not work in real life. Maybe training a neural network would help reduce how the time that this pipeline takes to identify vehicles to something that is real-time. 
+
+
