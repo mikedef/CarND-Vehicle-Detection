@@ -26,9 +26,8 @@ The goals / steps of this project are the following:
 [image2]: ./output_images/non_vehicles.png "non-vehicles"
 [image3]: ./output_images/hog_examples.png "HOG Example"
 [image4]: ./output_images/color_hist.png "color hist"
-
-[image5]: ./output_images/dir_road_img_sample_kernel3.png "Dir Example"
-[image6]: ./output_images/combined_road_img_sample_.png "Combined Example"
+[image5]: ./output_images/spatial_bin.png "spatial binning"
+[image6]: ./output_images/search_windows_separate.png "sliding window search"
 [image7]: ./output_images/combined_color_road_img_sample_.png "Combined with color Example"
 [image8]: ./output_images/perspective_transform_road_img_sample_.png "perspective transform Example"
 [image9]: ./output_images/histogram_road_img_sample_.png "Hist of lane line pixles"
@@ -66,3 +65,22 @@ It is easy to see the difference between the Vehicle HOG images and the Non-Vehi
 Next I will extract features based on different color cars looking at each color spaces. The sample below looks at RGB color space, but I decided on using the LUV color space based on the performance of the classifier.
 
 ![alt text][image4]
+
+### Spatial Binning
+
+Next I will look at how reducing the resolution will effect how well I can detect features. 
+
+
+![alt text][image5]
+
+This reduces the images resolution but we can still make out the vehicle enough to capture valid information
+
+## Classifying Images
+
+Next I will build a classifier to tell if a image is a vehicle or not. I ended up using a Random Forest model using a grid search that returned 99.35% accuracy on the test set. 
+
+### Sliding Window Search
+
+A sliding window approach has been implemented, where overlapping tiles in each test image are classified as vehicle or non-vehicle.
+
+![alt text][image6]
