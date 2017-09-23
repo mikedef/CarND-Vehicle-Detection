@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./output_images/vehicles.png "vehicles"
 [image2]: ./output_images/non_vehicles.png "non-vehicles"
-[image3]: ./output_images/sobel_road_img_harder_sample.png "Sobel Example"
+[image3]: ./output_images/hog_examples.png "HOG Example"
 [image4]: ./output_images/mag_road_img_sample.png "Mag Example"
 [image5]: ./output_images/dir_road_img_sample_kernel3.png "Dir Example"
 [image6]: ./output_images/combined_road_img_sample_.png "Combined Example"
@@ -48,3 +48,12 @@ First I would like to explore the data sets given by udacity to train the classi
 
 ![alt text][image1]
 ![alt text][image2]
+
+The images extracted show that in the vehicles folder there are images of vehicles of various angles, crops, and zooms. In the non-vehicle folder we have images of typical scenes that you might see driving without any other vehicles around. I will use these images to train the classifier.
+
+### Extracting Image Features 
+### Histogram of Gradients (HOG)
+
+To extract the HOG features I defined a function  `get_hog_features()` which implements `scikit-image` and the function to extract HOG features as shown below.
+
+![alt text][image3]
