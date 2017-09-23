@@ -25,7 +25,8 @@ The goals / steps of this project are the following:
 [image1]: ./output_images/vehicles.png "vehicles"
 [image2]: ./output_images/non_vehicles.png "non-vehicles"
 [image3]: ./output_images/hog_examples.png "HOG Example"
-[image4]: ./output_images/mag_road_img_sample.png "Mag Example"
+[image4]: ./output_images/color_hist.png "color hist"
+
 [image5]: ./output_images/dir_road_img_sample_kernel3.png "Dir Example"
 [image6]: ./output_images/combined_road_img_sample_.png "Combined Example"
 [image7]: ./output_images/combined_color_road_img_sample_.png "Combined with color Example"
@@ -57,3 +58,11 @@ The images extracted show that in the vehicles folder there are images of vehicl
 To extract the HOG features I defined a function  `get_hog_features()` which implements `scikit-image` and the function to extract HOG features as shown below.
 
 ![alt text][image3]
+
+It is easy to see the difference between the Vehicle HOG images and the Non-Vehicle HOG images
+
+### Color Features
+
+Next I will extract features based on different color cars looking at each color spaces. The sample below looks at RGB color space, but I decided on using the LUV color space based on the performance of the classifier.
+
+![alt text][image4]
