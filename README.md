@@ -47,3 +47,4 @@ The goals / steps of this project are the following:
 First I would like to explore the data sets given by udacity to train the classifier. The classifier will be used to identify vehicles on a road Vs non-vehicles. Below are a sample of the images provided.
 
 ![alt text][image1]
+![alt text][image2]
