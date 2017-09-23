@@ -67,7 +67,7 @@ Next I will extract features based on different color cars looking at each color
 
 ### Spatial Binning
 
-Next I will look at how reducing the resolution will effect how well I can detect features. 
+Next I will look at how reducing the resolution will affect how well I can detect features. 
 
 
 ![alt text][image5]
@@ -88,7 +88,7 @@ The searching the windows above the classifier is able to identify the windows w
 
 ![alt text][image7]
 
-Implementing the HOG extraction over all new windows is very inefficient and takes a long time to do. Using the HOG extraction function over the sliding window improves the efficiency and helps seperate detections.
+Implementing the HOG extraction over all new windows is very inefficient and takes a long time to do. Using the HOG extraction function over the sliding window improves the efficiency and helps separate detections.
 
 ![alt text][image8]
 
@@ -108,6 +108,6 @@ or see the project_video_output.mp4 or project_video_gif.mp4 in this repository.
 
 ### Discussion
 
-Using this pipeline on a live video is extreamly inefficient. It taks well over 30 minutes to extract and identify vehicles. This would simply not work in real life. Maybe training a neural network would help reduce how the time that this pipeline takes to identify vehicles to something that is real-time. 
+Using this pipeline on a live video is extremely inefficient. It takes well over 30 minutes to extract and identify vehicles. This would simply not work in real life. Maybe training a neural network would help reduce how the time that this pipeline takes to identify vehicles to something that is real-time. 
 
 
