@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./output_images/vehicles.png "vehicles"
-[image2]: ./output_images/non-vehicles.png "non-vehicles"
+[image2]: ./output_images/non_vehicles.png "non-vehicles"
 [image3]: ./output_images/sobel_road_img_harder_sample.png "Sobel Example"
 [image4]: ./output_images/mag_road_img_sample.png "Mag Example"
 [image5]: ./output_images/dir_road_img_sample_kernel3.png "Dir Example"
