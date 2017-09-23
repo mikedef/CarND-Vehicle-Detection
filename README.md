@@ -20,3 +20,25 @@ The goals / steps of this project are the following:
 
 ---
 
+[//]: # (Image References)
+
+[image1]: ./output_images/orig_distorted_img.png "Undistorted"
+[image2]: ./output_images/undistort_road_img_sample.png "Road Transformed"
+[image3]: ./output_images/sobel_road_img_harder_sample.png "Sobel Example"
+[image4]: ./output_images/mag_road_img_sample.png "Mag Example"
+[image5]: ./output_images/dir_road_img_sample_kernel3.png "Dir Example"
+[image6]: ./output_images/combined_road_img_sample_.png "Combined Example"
+[image7]: ./output_images/combined_color_road_img_sample_.png "Combined with color Example"
+[image8]: ./output_images/perspective_transform_road_img_sample_.png "perspective transform Example"
+[image9]: ./output_images/histogram_road_img_sample_.png "Hist of lane line pixles"
+[image10]: ./output_images/slidingWinddow.png "sliding Hist of lane line pixles"
+[image11]: ./output_images/FittedLaneLines.png "slidings Hist of lane line pixles"
+[image12]: ./output_images/curve_fitting_road_img_sample_.png "curve fitting"
+[video14]: ./project_video_output.mp4 "Video"
+
+## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
+
+### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
+
+---
+
