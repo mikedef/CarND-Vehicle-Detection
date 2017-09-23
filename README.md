@@ -3,7 +3,7 @@
 
 ## Michael DeFilippo
 
-#### Please see my [project code](https://github.com/mikedef/CarND-Vehicle-Detection/blob/master/Vehicle_Detection.ipynb) for any questions regarding implimentation.
+#### Please see my [project code](https://github.com/mikedef/CarND-Vehicle-Detection/blob/master/Vehicle_Detection.ipynb) for any questions regarding implementation.
 ---
 
 **Vehicle Detection Project**
@@ -22,8 +22,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/orig_distorted_img.png "Undistorted"
-[image2]: ./output_images/undistort_road_img_sample.png "Road Transformed"
+[image1]: ./output_images/vehicles.png "vehicles"
+[image2]: ./output_images/non-vehicles.png "non-vehicles"
 [image3]: ./output_images/sobel_road_img_harder_sample.png "Sobel Example"
 [image4]: ./output_images/mag_road_img_sample.png "Mag Example"
 [image5]: ./output_images/dir_road_img_sample_kernel3.png "Dir Example"
@@ -42,3 +42,8 @@ The goals / steps of this project are the following:
 
 ---
 
+### Exploring The Data
+
+First I would like to explore the data sets given by udacity to train the classifier. The classifier will be used to identify vehicles on a road Vs non-vehicles. Below are a sample of the images provided.
+
+![alt text][image1]
