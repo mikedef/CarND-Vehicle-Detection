@@ -99,11 +99,13 @@ Next I use a heatmap to reduce false positives and control for noise in the imag
 ![alt text][image9]
 
 ### Video Pipeline
-Here's a [link to my video result](https://youtu.be/Rt7aAEs6CCQ)
-Here's a [link to my video result](https://youtu.be/7A0Rvv75agA)
+I have added more images from the udacity dataset to help with training a better classifier for this pipeline.
+
+Here's a [link to my updated video result](https://youtu.be/cv8-oMW0zdY)
+
 
 or see the project_video_output.mp4 or project_video_gif.mp4 in this repository. 
-or see the project_video_output2.mp4 for an updated vehicle detection video. 
+or see the project_video_output3.mp4 for an updated vehicle detection video. 
 
 ![Alt Text](project_video_gif.mp4)
 
