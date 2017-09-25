@@ -53,7 +53,7 @@ The images extracted show that in the vehicles folder there are images of vehicl
 ### Extracting Image Features 
 ### Histogram of Gradients (HOG)
 
-To extract the HOG features I defined a function  `get_hog_features()` which implements `scikit-image` and the function to extract HOG features as shown below.
+To extract the HOG features I defined a function  `get_hog_features()` which implements `scikit-image` and the function to extract HOG features as shown below. The HOG function has selectable parameters such as orientation, pixels per cell, and cells per block. Through experimentations I found that the LUV color space was the best color space parameter to extract features. Based on the lesson I selected 8 pixels per cell and 8 orientations.
 
 ![alt text][image3]
 
