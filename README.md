@@ -103,11 +103,12 @@ Here's a [link to my video result](https://youtu.be/Rt7aAEs6CCQ)
 Here's a [link to my video result](https://youtu.be/7A0Rvv75agA)
 
 or see the project_video_output.mp4 or project_video_gif.mp4 in this repository. 
+or see the project_video_output2.mp4 for an updated vehicle detection video. 
 
 ![Alt Text](project_video_gif.mp4)
 
 ### Discussion
 
-Using this pipeline on a live video is extremely inefficient. It takes well over 30 minutes to extract and identify vehicles. This would simply not work in real life. Maybe training a neural network would help reduce how the time that this pipeline takes to identify vehicles to something that is real-time. 
+Using this pipeline on a live video is extremely inefficient. It takes well over 30 minutes to extract and identify vehicles. Also my pipeline seems to have a problem pickin the white vehicle back up after the road changes color. This would simply not work in real life. Maybe training a neural network would help reduce how the time that this pipeline takes to identify vehicles to something that is real-time. 
 
 
